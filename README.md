@@ -1,6 +1,6 @@
 # 🚗 Serviteca ADSO
 
-🚀 **Demo en Vivo:** [https://serviteca-adso.netlify.app](https://serviteca-adso.netlify.app)
+🚀 **Demo en Vivo:** [https://servitecademo.netlify.app](https://servitecademo.netlify.app)
 
 ## Resumen Ejecutivo
 Sistema web de gestión integral para servitecas, desarrollado como entregable académico del programa Tecnólogo en Análisis y Desarrollo de Software (ADSO) del SENA. Permite a administradores gestionar clientes, vehículos y servicios, mientras que los clientes acceden a un portal de consulta de solo lectura.
@@ -66,7 +66,7 @@ INT-01: Login → credenciales admin/admin | cliente/cliente
 
 ```bash
 # Clonar el repositorio
-git clone <repo-url>
+git clone <https://github.com/michdeidad/Serviteca-web-app.git>
 cd "Login Screen Design"
 
 # Instalar dependencias

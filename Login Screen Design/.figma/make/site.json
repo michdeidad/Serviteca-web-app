@@ -1,0 +1,10 @@
+{
+  "description": "Manage vehicle services and client data with a sleek dark-mode dashboard offering login, client registration, service tracking, and customer portals.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

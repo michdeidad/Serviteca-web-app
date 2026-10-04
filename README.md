@@ -117,4 +117,4 @@ serviteca_adso/
 ```
 
 ---
-_Proyecto académico — Programa ADSO, SENA Colombia. Generado con asistencia de Kiro (Amazon AI)._
+_Proyecto académico — Programa ADSO, SENA Colombia. 

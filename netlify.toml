@@ -1,7 +1,7 @@
 [build]
   base = "Login Screen Design"
   command = "npm run build"
-  publish = "Login Screen Design/dist"
+  publish = "dist"
 
 [[redirects]]
   from = "/*"

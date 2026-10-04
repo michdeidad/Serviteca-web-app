@@ -5,8 +5,8 @@ import { Brand, Card, Field, PrimaryButton } from './ui'
 export type Role = 'admin' | 'cliente'
 
 const ACCOUNTS: Record<string, { pass: string; role: Role }> = {
-  admin: { pass: 'admin123', role: 'admin' },
-  juan: { pass: 'juan123', role: 'cliente' },
+  admin: { pass: 'admin', role: 'admin' },
+  cliente: { pass: 'cliente', role: 'cliente' },
 }
 
 export default function Login({ onLogin }: { onLogin: (r: Role) => void }) {
@@ -87,7 +87,7 @@ export default function Login({ onLogin }: { onLogin: (r: Role) => void }) {
           <button onClick={() => fill('admin')} className="rounded-full border border-line px-3 py-1 transition hover:border-volt hover:text-volt">
             Administrador
           </button>
-          <button onClick={() => fill('juan')} className="rounded-full border border-line px-3 py-1 transition hover:border-volt hover:text-volt">
+          <button onClick={() => fill('cliente')} className="rounded-full border border-line px-3 py-1 transition hover:border-volt hover:text-volt">
             Cliente
           </button>
         </div>
